@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="24bc0cd9-95ad-4a2e-8539-34b62235d91a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53435/MpService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MpService.disco" MetadataType="Disco" ID="95fe4b90-63c5-41c0-96fd-d8a500c6a26a" SourceId="1" SourceUrl="http://localhost:53435/MpService.svc?disco" />
+    <MetadataFile FileName="MpService2.xsd" MetadataType="Schema" ID="1de9a25d-136d-49b6-87b0-a19f8f6030a0" SourceId="1" SourceUrl="http://localhost:53435/MpService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MpService.wsdl" MetadataType="Wsdl" ID="47aa9ea9-1629-4f83-b12c-f04a7d114885" SourceId="1" SourceUrl="http://localhost:53435/MpService.svc?wsdl" />
+    <MetadataFile FileName="MpService.xsd" MetadataType="Schema" ID="a281ae08-4c22-4564-bbe3-10beefa06dd9" SourceId="1" SourceUrl="http://localhost:53435/MpService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MpService1.xsd" MetadataType="Schema" ID="d56e4851-3f64-4b60-a39f-aad4290eb150" SourceId="1" SourceUrl="http://localhost:53435/MpService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
